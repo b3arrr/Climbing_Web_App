@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <AboutPage />
+           
+        </>
+
+        /*    <div id="grades">
+                <Circles color="White" />
+                <Circles color="Blue" />
+                <Circles color="Yellow" />
+                <Circles color="Red" />
+                <Circles color="Black" />
+                <Circles color="Grey" />
+            </div>
+            */
+    );
 }
 
 export default App;
