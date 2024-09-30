@@ -2,7 +2,7 @@
 const userData = {
     about: {
         title:
-        "This is the about page for climbing",
+        "This is a prototype page for upcoming climbing app",
         description: [
             `This is a description`,
             `This is another line of description`,

@@ -1,11 +1,17 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
+import GradePage from "./pages/GradePage";
 
 function App() {
     return (
         <>
-            <AboutPage />
-           
+            <Router>
+                <Routes>
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/grade" element={<GradePage />} />
+                </Routes>
+            </Router>
         </>
 
         /*    <div id="grades">
