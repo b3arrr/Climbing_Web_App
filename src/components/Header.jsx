@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
             <nav>
-                <h1>Header</h1>
+                <h1>Oslo Climbing</h1>
                 <ul>
                     <li>
                         <Link to="/">Home</Link>

@@ -1,13 +1,9 @@
 import ContainerBlock from "../components/ContainerBlock";
-import Circles from "../components/Circles";
+import Grading from "../components/Grading";
 export default function GradePage() {
     return (
-         <ContainerBlock>
-            <Circles/>
-            <p>hello</p>
-          </ContainerBlock>
-           
-       
+        <ContainerBlock>
+            <Grading />
+        </ContainerBlock>
     );
 }
-
