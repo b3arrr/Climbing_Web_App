@@ -24,9 +24,10 @@ h1{
   text-transform: uppercase;
   text-align:center;
   color: var(--accent-color);
+  
 }
 button {
-  background-color: #04AA6D; /* Green */
+  background-color: #04AA6D; 
   border: none;
   text-transform:lowercase;
   font-size:1em;
@@ -36,4 +37,28 @@ button {
   border-radius: 10px;
   text-decoration: none;
   display: inline-block;
+  transition-duration:0.2s;
+  opacity: 0.7;
+}
+
+button:hover {
+  opacity: 1;
+  
+  
+}
+button:active {
+  animation: press 0.1s 1 linear;
+  
+}
+@keyframes press {
+  0%{
+    transform: scale(1);
+  
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  to {
+    transform:scale(1);
+  }
 }
